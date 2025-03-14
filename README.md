@@ -24,7 +24,7 @@ pip install setuptools==68.2.2
 conda install packaging
 
 5. 安装trition-windows
-参考博客 https://blog.csdn.net/yyywxk/article/details/144868136，需要准备MSVC和windows sdk，这在前面第0步安装vs时解决；
+参考博客 https://blog.csdn.net/yyywxk/article/details/144868136 ，需要准备MSVC和windows sdk，这在前面第0步安装vs时解决；
 安装命令 pip install https://github.com/woct0rdho/triton-windows/releases/download/v3.1.0-windows.post5/triton-3.1.0-cp310-cp310-win_amd64.whl
 也可先下载在安装；安装完毕可验证其核心的triton.jit 和 torch.compile等功能。
 
